@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Bank Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Create Bank Account</h2>
+    <form id="bankAccountForm">
+        <div>
+            <label for="customerId">Customer ID:</label>
+            <input type="text" id="customerId" name="customerId" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+            <a href="#" id="forgotPasswordLink">Forgot Password?</a>
+        </div>
+        <button type="submit">Submit</button>
+        <a href="index.html" id="signupButton">Login</a> <!-- New SignUp button linking to "signup.html" -->
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
